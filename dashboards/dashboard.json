@@ -1,0 +1,9 @@
+{
+  "name": "Customer_Support_Dashboard",
+  "description": "Shows open cases by owner, escalated cases, etc.",
+  "components": [
+    "Open Cases by Owner Chart",
+    "Escalated Cases Table",
+    "Cases by Tape Chart"
+  ]
+}

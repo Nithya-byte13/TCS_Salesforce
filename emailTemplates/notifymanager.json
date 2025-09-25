@@ -1,0 +1,6 @@
+{
+  "name": "Case_Escalated_Notify_Manager",
+  "subject": "Case Escalated - Notify Manager",
+  "body": "<p>Hello {!User.FirstName},\n\nA case has been escalated and needs your attention.\n\nCase Number: {!Case.CaseNumber}\nCase Type: {!Case.Case_Type__c}\nSubject: {!Case.Subject}\n\nLink: https://{!$Organization.DomainName}/lightning/r/Case/{!Case.Id}/view</p>",
+  "plainText": "Hello {!User.FirstName}, a case has been escalated and needs your attention. Case Number: {!Case.CaseNumber}, Case Type: {!Case.Case_Type__c}, Subject: {!Case.Subject}, Link: https://{!$Organization.DomainName}/lightning/r/Case/{!Case.Id}/view"
+}

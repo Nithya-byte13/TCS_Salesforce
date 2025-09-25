@@ -1,0 +1,6 @@
+{
+  "name": "Case_Created_Notify_Owner",
+  "subject": "Case Created - Notify Owner",
+  "body": "<p>Hello {!Case.OwnerFullName},\n\nA new case has been assigned to you.\n\nCase Number: {!Case.CaseNumber}\nCase Type: {!Case.Case_Type__c}\nSubject: {!Case.Subject}\n\nLink: https://{!$Organization.DomainName}/lightning/r/Case/{!Case.Id}/view</p>",
+  "plainText": "Hello {!Case.OwnerFullName}, a new case has been assigned to you. Case Number: {!Case.CaseNumber}, Case Type: {!Case.Case_Type__c}, Subject: {!Case.Subject}, Link: https://{!$Organization.DomainName}/lightning/r/Case/{!Case.Id}/view"
+}
